@@ -1,3 +1,3 @@
 export default function Contactos(){
-    return <h1>Contactos</h1> 
+    return <h1>Contacts</h1> 
 }
