@@ -1,3 +1,7 @@
-export default function Productos(){
-    return <h1>Product</h1> 
+export const metadata = {
+    title: "Products",
+};
+
+export default function Products(){
+    return <h1>Products</h1> 
 }
