@@ -3,5 +3,5 @@ export const metadata = {
 };
 
 export default function Register(){
-    return <h1>Register</h1> 
+    return <h2>Register</h2> 
 }

@@ -1,12 +1,9 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Metadata } from "next";
+import { Nav } from "./components/nav";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Index",
     default: "Saago App",
     template: "%s | Saago App"
   },
@@ -18,10 +15,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body>
-        <header> </header>
         <main>{children}</main>
       </body>
     </html>
